@@ -7,8 +7,9 @@ buildscript {
 
     }
     dependencies {
-        classpath(BuildPlugins.android_build_tools)
-        classpath(BuildPlugins.kotlin_gradle_plugin)
+        classpath(Project.android_build_tools)
+        classpath(Project.kotlin_gradle_plugin)
+        classpath(Project.navigation_safe_args)
     }
 }
 
@@ -16,7 +17,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-
     }
 }
 

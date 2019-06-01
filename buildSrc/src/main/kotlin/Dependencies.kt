@@ -1,15 +1,25 @@
-object BuildPlugins {
+object Project  {
     object Version {
         val android_buid_tools =  "3.4.0"
-        val kotlin_gradle_plugin = "1.3.30"
+        val kotlin_gradle_plugin = "1.3.31"
+        val navigation_safe_args = "2.1.0-alpha04"
     }
+
+    val versionCode = 1
+    val versionName = "1.0"
+    val applicationId = "com.example.navigation_training"
 
     val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Version.kotlin_gradle_plugin}"
     val android_build_tools = "com.android.tools.build:gradle:${Version.android_buid_tools}"
+    val navigation_safe_args = "android.arch.navigation:navigation-safe-args-gradle-plugin:${Version.navigation_safe_args}"
+}
 
+object BuildPlugins {
     val android_application = "com.android.application"
+    val android_library = "com.android.library"
     val kotlin_android = "kotlin-android"
     val kotlin_android_extensions = "kotlin-android-extensions"
+
 }
 
 object AndroidSdk {
