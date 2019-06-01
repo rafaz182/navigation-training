@@ -22,6 +22,10 @@ dependencies {
     implementation(Libraries.constraint_layout)
     implementation(Libraries.material)
 
+    // navigation
+    implementation(Libraries.navigation_fragment)
+    implementation(Libraries.navigation_ui)
+
     //testImplementation 'junit:junit:4.12'
     //androidTestImplementation 'androidx.test:runner:1.1.1'
     //androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'

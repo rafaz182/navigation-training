@@ -36,6 +36,7 @@ object Libraries {
         val constraint_layout = "1.1.3"
         val appcompat = "1.0.2"
         val material = "1.0.0"
+        val navigation = "2.1.0-alpha04"
     }
 
     val kotlin_stdlib_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Version.kotlin_stdlib_jdk8}"
@@ -43,6 +44,10 @@ object Libraries {
     val constraint_layout = "androidx.constraintlayout:constraintlayout:${Version.constraint_layout}"
     val appcompat = "androidx.appcompat:appcompat:${Version.appcompat}"
     val material = "com.google.android.material:material:${Version.material}"
+
+    // navigation dependencies
+    val navigation_fragment = "androidx.navigation:navigation-fragment-ktx:${Version.navigation}"
+    val navigation_ui = "androidx.navigation:navigation-ui-ktx:${Version.navigation}"
 }
 
 object Modules {
