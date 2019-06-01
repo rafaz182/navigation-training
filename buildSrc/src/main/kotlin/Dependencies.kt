@@ -11,7 +11,7 @@ object Project  {
 
     val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Version.kotlin_gradle_plugin}"
     val android_build_tools = "com.android.tools.build:gradle:${Version.android_buid_tools}"
-    val navigation_safe_args = "android.arch.navigation:navigation-safe-args-gradle-plugin:${Version.navigation_safe_args}"
+    val navigation_safe_args = "androidx.navigation:navigation-safe-args-gradle-plugin:${Version.navigation_safe_args}"
 }
 
 object BuildPlugins {
