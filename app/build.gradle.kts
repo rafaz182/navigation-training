@@ -30,6 +30,7 @@ dependencies {
     implementation(Libraries.android_ktx)
 
     implementation(project(Modules.login))
+    implementation(project(Modules.commons_android))
     //testImplementation 'junit:junit:4.12'
     //androidTestImplementation 'androidx.test:runner:1.1.1'
     //androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
