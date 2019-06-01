@@ -3,6 +3,7 @@ package com.example.commom_android
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.commons_android.R
 
 /**
  *
