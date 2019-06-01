@@ -1,6 +1,7 @@
 plugins {
     id(BuildPlugins.android_library)
     id(BuildPlugins.kotlin_android)
+    id(BuildPlugins.navigation_safe_args)
 }
 
 android {

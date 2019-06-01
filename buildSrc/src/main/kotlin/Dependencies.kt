@@ -19,7 +19,7 @@ object BuildPlugins {
     val android_library = "com.android.library"
     val kotlin_android = "kotlin-android"
     val kotlin_android_extensions = "kotlin-android-extensions"
-
+    val navigation_safe_args = "androidx.navigation.safeargs.kotlin"
 }
 
 object AndroidSdk {
