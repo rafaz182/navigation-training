@@ -37,13 +37,17 @@ object Libraries {
         val appcompat = "1.0.2"
         val material = "1.0.0"
         val navigation = "2.1.0-alpha04"
+        val recyclerview = "1.1.0-alpha05"
     }
 
     val kotlin_stdlib_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Version.kotlin_stdlib_jdk8}"
     val android_ktx = "androidx.core:core-ktx:${Version.android_ktx}"
+
+    // material ui
     val constraint_layout = "androidx.constraintlayout:constraintlayout:${Version.constraint_layout}"
     val appcompat = "androidx.appcompat:appcompat:${Version.appcompat}"
     val material = "com.google.android.material:material:${Version.material}"
+    val recyclerview = "androidx.recyclerview:recyclerview:${Version.recyclerview}"
 
     // navigation dependencies
     val navigation_fragment = "androidx.navigation:navigation-fragment-ktx:${Version.navigation}"

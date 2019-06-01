@@ -21,6 +21,7 @@ dependencies {
     implementation(Libraries.appcompat)
     implementation(Libraries.constraint_layout)
     implementation(Libraries.material)
+    implementation(Libraries.recyclerview)
 
     // navigation
     implementation(Libraries.navigation_fragment)
