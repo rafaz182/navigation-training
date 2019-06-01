@@ -32,11 +32,20 @@ object AndroidSdk {
 object Libraries {
     object Version {
         val kotlin_stdlib_jdk8 = "1.3.30"
-        val androidx_appcompat = "1.0.2"
         val android_ktx = "1.0.1"
+        val constraint_layout = "1.1.3"
+        val appcompat = "1.0.2"
+        val material = "1.0.0"
     }
 
     val kotlin_stdlib_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Version.kotlin_stdlib_jdk8}"
-    val androidx_appcompat = "androidx.appcompat:appcompat:${Version.androidx_appcompat}"
     val android_ktx = "androidx.core:core-ktx:${Version.android_ktx}"
+    val constraint_layout = "androidx.constraintlayout:constraintlayout:${Version.constraint_layout}"
+    val appcompat = "androidx.appcompat:appcompat:${Version.appcompat}"
+    val material = "com.google.android.material:material:${Version.material}"
+}
+
+object Modules {
+    val login = ":login"
+    val commons_android = ":commons_android"
 }
